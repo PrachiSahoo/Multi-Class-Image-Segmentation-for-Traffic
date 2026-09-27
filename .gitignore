@@ -1,0 +1,26 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Checkpoints (large, machine-specific)
+*.pth
+*.pth.tar
+
+# Dataset (large, provided locally, not committed) — keep the folder
+# structure and docs, ignore everything actually dropped into them.
+data/*/*
+!data/*/.gitkeep
+
+# Inference outputs
+output.jpg
+output.mp4
+*.avi
+
+# OS/editor cruft
+.DS_Store
+.idea/
+.vscode/
